@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Miles Rausch - vi</title>
+<meta name="version" content="S5 1.0" />
+<link rel="stylesheet" href="ui/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/opera.css" type="text/css" media="projection" id="operaFix" />
+<link rel="stylesheet" href="ui/print.css" type="text/css" media="print" id="slidePrint" />
+<script src="ui/slides.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="layout">
+
+<div id="currentSlide"></div>
+<div id="header"></div>
+<div id="footer">
+<h1>Miles Rausch - vi</h1>
+<h2>search, replace, and buffers</h2>
+<div id="controls"></div>
+</div>
+
+</div>
+
+
+<div class="presentation">
+
+<div class="slide">
+<h1>Miles Rausch - vi</h1>
+<h3>search, replace, and buffers</h3>
+</div>
+
+
+<div class="slide">
+<h1>What Will I Cover?</h1>
+<ul>
+<li>Search</li>
+<ul><li>Commands</li>
+<li>Why?</li></ul>
+<li>Replace</li>
+<ul><li>Commands</li>
+<li>Why?</li></ul>
+<li>Buffers</li>
+<ul><li>Commands</li>
+<li>Why?</li></ul>
+</ul>
+</div>
+
+<div class="slide">
+<h1>Real Quick vi Briefing</h1>
+<ul>
+<li>According to Answers.com</li>
+<ul><li>Stands for <b>V</b>isual <b>I</b>nterface.</li>
+<li>A Unix full-screen text editor that can be run from a terminal or the system console.</li>
+<li>It is a fast, programmer-oriented utility.</li>
+<li>It rocks harder than Mt. Rushmore.</li></ul>
+</ul>
+</div>
+
+<div class="slide">
+<h1>Search Command</h1>
+<ul>
+<li>/<i>string</i></li>
+<ul><li>Search forward for <i>string</i></li></ul>
+<li>?<i>string</i></li>
+<ul><li>Search back for <i>string</i></li></ul>
+<li>n</li>
+<ul><li>Search for next instance of <i>string</i></li></ul>
+<li>N</li>
+<ul><li>Search for previous instance of <i>string</i></li></ul>
+</ul>
+</div>
+
+<div class="slide">
+<h1>Why Search?</h1>
+<ul>
+<li>To find information amongst information</li>
+<li>To navigate</li>
+<li>Fundamental necessity of modern word processing programs</li>
+<li>Can use pattern matching</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>Replace Command</h1>
+<ul>
+<li>:<i>[range]</i>s/<i>pattern</i>/<i>string</i>/<i>flags</i></li>
+<ul><li>Replace <i>pattern</i> with <i>string</i> according to <i>flags</i>.  Is usually used with a <i>[range]</i>.  Range for entire file can be 1,$ or %.</li></ul>
+<li>g</li>
+<ul><li>Flag - Replace all occurences of pattern</li></ul>
+<li>c</li>
+<ul><li>Flag - Confirm replaces</li></ul>
+<li>&</li>
+<ul><li>Repeat last :s command</li></ul>
+</ul>
+</div>
+
+<div class="slide">
+<h1>Why Replace?</h1>
+<ul>
+<li>Update a file</li>
+<li>To make many corrections</li>
+<li>To update a file for regional differences</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>Buffers Command</h1>
+<ul>
+<li>:e <i>filename</i></li>
+<ul><li>This will load the <i>filename</i> into the vi buffer</li></ul>
+<li>:e#</li>
+<ul><li>This will switch between buffers, effectively switching between open files.</li></ul>
+</ul>
+</div>
+
+<div class="slide">
+<h1>Why Buffers?</h1>
+<ul>
+<li>Vi provides facilities to edit several files at once</li>
+<li>It stores each text file in its own text buffer.</li>
+<li>Text buffers exist inside Vi; even when they are not visible.</li>
+<li>Only 2 buffers - active and inactive</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>Demonstration</h1>
+<ul>
+<li>Are there any question or comments?</li>
+<li>On to the demonstration then</li>
+</ul>
+</div>
+
+
+</div>
+
+</body>
+</html>

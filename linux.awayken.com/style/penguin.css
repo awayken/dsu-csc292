@@ -1,0 +1,119 @@
+/*	Briefcase is courtesy of http://sxc.hu/browse.phtml?f=view&id=259505
+	Luggage 3 by ppreacher
+	Boots are courtesy of http://sxc.hu/browse.phtml?f=view&id=117254
+	boots by liaj		*/
+
+* { font-family: "courier new", courier, monospace; }
+
+body {
+	background-image: url(body.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-color: white;
+}
+
+#main {
+	font-size: 12px;
+	border: 1px silver solid;
+	padding: 5px 10px 5px 10px;
+	background-color: white;
+	margin-bottom: 170px;
+}
+
+#main .problems {
+	color: red;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 20px;
+	background-image: url(no.gif);
+	background-repeat: no-repeat;
+	background-position: middle left;
+}
+
+#main .fixes {
+	color: green;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 20px;
+	background-image: url(yes.gif);
+	background-repeat: no-repeat;
+	background-position: middle left;
+}
+
+#main .done {
+	text-decoration: line-through;
+}
+
+#main .skip {
+	color: silver;
+	text-decoration: line-through;
+}
+
+#main p {
+	color: #369;
+}
+
+#main li {
+	color: #693;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#main p a:link,
+#main p a:visited,
+#main ul li a:link,
+#main ul li a:visited {
+	color: #369;
+	text-decoration: none;
+	border-bottom: 2px silver solid;
+}
+
+#main p a:hover,
+#main p a:active,
+#main ul li a:hover,
+#main ul li a:active {
+	color: #693;
+	text-decoration: underline;
+}
+
+#navigation {
+	font-size: 14px;
+	border-top: 1px silver solid;
+	border-bottom: 5px gray solid;
+}
+
+#navigation ul {
+	text-align: center;
+}
+
+#navigation ul li {
+	list-style: none;
+	display: inline;
+	border-bottom: 2px silver solid;
+}
+
+#navigation ul li a:link,
+#navigation ul li a:visited {
+	color: #693;
+	text-decoration: none;
+}
+
+#navigation ul li a:hover,
+#navigation ul li a:active {
+	color: #369;
+	text-decoration: underline;
+}
+
+#banner {
+	height: 100px;
+}
+
+#banner h1 {
+	line-height: 100px;
+	padding-left: 130px;
+	background-image: url(banner.jpg);
+	background-position: middle left;
+	background-repeat: no-repeat;
+}
