@@ -1,0 +1,72 @@
+For more information on or project, including Tom's requirements, please visit http://linux.awayken.com.
+
+The following is what our group thought of the other group projects.
+
+Group Bootable CD:
+	One suggestion:
+	I'm not sure what kind of compile time you had, but you could maybe swap out Kde for a smaller desktop environment.
+
+	Completeness / Value of Project
+	We feel that this project could hold a great deal of value to those wishing to use Linux in their math or science research.
+
+	Discussion Questions
+	Lucas: Why did you choose Knoppix for this project over other distributions?
+	Dustin: What actual math- and science-related applications did you include on your cd?
+	Miles: What sort of documentation software did you leave in?  I saw that you took out open office.
+
+Group Linux Kernel Rebuild:
+	One suggestion:
+	Provide more documentation on your site as to what steps you took.
+
+	Completeness / Value of Project
+	It appears that many of the steps your took in creating your new kernel were the same as those included in the Gentoo Linux documentation.  This may have been a step off the beaten path for Knoppix, but, in Gentoo, this was run-of-the-mill.  But, I may also be misinterpreting the actual project.
+
+	Discussion Questions
+	Lucas: How is your kernel compilation different from compilations in do-it-yourself distributions like Gentoo?
+	Dustin: What is console blanking using APM, and why does it only work on some laptops?
+	Miles: What distribution would you consider changing to after using Knoppix?
+
+Group mcsh:
+	One suggestion:
+	It would have been nice to have a tutorial of what your shell can do.  The "How To" for how to make your own shell was neat, but what about mcsh?  Is it as feature rich as bash, or is it specialized?
+
+	Completeness / Value of Project
+	This project was creative and holds a great deal of importance to those who find themselves wishing they had "this command" or "that command" and needed a jump start on how to write their own script language.
+
+	Discussion Questions
+	Lucas: How did you know where to start?
+	Dustin: What does the "mark" function do?
+	Miles: Would you say that C++ was the perfect language for writing this in, or do you think you may have chosen a different language if you were able to do it over?
+
+Group vmware:
+	One suggestion:
+	I guess this is just a logical next step, but I would suggest that next time you only install quick, easy, distros and then work on the virtual switch or the images.  Oh, and it may help to put titles on your webpages.  :)
+
+	Completeness / Value of Project
+	This project appears to have even sudden, short-term benefits for Dakota State.  I would say that this was a very necessary and valuable project.
+
+	Discussion Questions
+	Lucas: What do Mandrake and Slackware do?
+	Miles: Was using several different distributions part of the project, or was that more of a testing ground to see what you should eventually go with?
+
+Group Secure Linux:
+	One suggeston:
+	If you were to divide your site up a little more, it might be easier for readers to tell what information was interesting / pertinent and what information is just prose.
+
+	Completeness / Value of Project
+	I think that in an age of increasing insecurity, a documenation and implementation project based on securing an operating system as much as possible is of great value.  Maybe the NSA will switch to SELinux.
+
+	Discussion Questions
+	Lucas: What is he difference between TK-based and ncurses-based front ends?
+	Miles: How much is the particular distro affecting the hardening process?
+
+Group Apache:
+	One suggestion:
+	You could possible expand this project by doing it from the perspective of several different distributions, highlighting the differences there are.
+
+	Completeness / Value of Project
+	There are possibly a good deal of students who want to host their own webpages for only the cost of their internet connection.  Linux is an ideal operating system for server-related functionaliy, and this guide should help get students up and running.
+
+	Discussion Questions
+	Lucas: What does Apache do?
+	Miles: Was the decision to implement ASP over PHP a technical one or an aesthetic one?
